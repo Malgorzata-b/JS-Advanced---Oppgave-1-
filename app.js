@@ -44,7 +44,7 @@ console.log(listName);
 // the names of all products in a specific category (e.g. 'electronics')
 const listElectronics = products
   .filter((e) => e.category === "electronics")
-  .map((e) => e.category);
+  .map((e) => e.name);
 console.log(listElectronics);
 
 // 4. Use .some() to check if there are any products that cost more than 1000
